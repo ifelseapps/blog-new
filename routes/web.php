@@ -19,7 +19,7 @@ Route::get('/', function () {
     return view('main');
 })->name('main');
 
-Route::get('/admin', function () {
+Route::get('/admin/{path?}', function () {
     if (!Auth::check()) {
         return redirect('/auth/');
     }
