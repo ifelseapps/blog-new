@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace App\UseCases;
+namespace App\Blog\UseCases;
 
-use App\Domain\Blog\Post;
-use App\Exceptions\DomainException;
+use App\Blog\Domain\Post;
+use App\Common\Exceptions\DomainException;
 use DateTime;
 
 class BlogPostUseCases

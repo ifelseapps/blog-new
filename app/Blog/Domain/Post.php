@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace App\Domain\Blog;
+namespace App\Blog\Domain;
 
-use App\Exceptions\DomainException;
-use App\Shared\Str;
+use App\Common\Exceptions\DomainException;
+use App\Common\Services\Str;
 use DateTime;
 
 class Post

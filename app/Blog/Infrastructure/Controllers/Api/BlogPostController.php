@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Blog\Infrastructure\Controllers\Api;
 
-use App\UseCases\BlogPostUseCases;
-use Illuminate\Http\Request;
+use App\Blog\UseCases\BlogPostUseCases;
+use App\Http\Controllers\Web\Controller;
 
 class BlogPostController extends Controller
 {
