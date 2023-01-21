@@ -85,10 +85,6 @@ class Post
         }
     }
 
-    /**
-     * @return array
-     * @throws DomainException
-     */
     public function toArray(): array
     {
         return [
